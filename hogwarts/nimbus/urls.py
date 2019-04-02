@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.checking_dynamodb, name='broomstick_list.html'),
+    path('view_tables', views.view_tables, name='broomstick_list.html'),
 ]
