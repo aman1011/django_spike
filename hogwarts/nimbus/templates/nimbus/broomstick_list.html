@@ -5,6 +5,14 @@
     <title>BroomSticks Are Us!</title>
 </head>
 <body>
+    <p>The view table object is {{value}}</p>
+    <ul>
+        {% for table in tables %}
+            <li>
+                {{ table }}
+            </li>
+        {% endfor %}
+    </ul>
 
 </body>
 </html>
